@@ -1,16 +1,16 @@
-{
+CONSTANTS ={
     "buttons": [
         {
             "name": "connect",
-            "title": "Connect"
+            "title": "Connect",
+            "method": "handle_connect",
+            "toggle": True
         },
         {
             "name": "save_config",
-            "title": "Save Configuration"
-        },
-        {
-            "name": "minimize",
-            "title": "Minimize To System Tray"
+            "title": "Save Configuration",
+            "method": "handle_set_config",
+            "toggle": False
         }
     ],
     "text_fields_sections": [
